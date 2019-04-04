@@ -1,14 +1,11 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import '../static/login.css';
+import { HomeDisplay } from '../components/Home/HomeDisplay.jsx'
 
 class Home extends Component {
-
     render() {
         return (
             <div>
-                HERE!!!
-                <Link to={'/login'}>Login</Link>
+                <HomeDisplay />
             </div>
         )
     }
