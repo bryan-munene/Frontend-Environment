@@ -6,6 +6,14 @@ export const Signup = () => {
     return (
         <div>
             <div className="login" id="SignIn">
+                <Link className="btn" to={'/'} role="button">
+                    <button className="signin"> Home </button>
+                </Link>
+                
+                <Link className="btn" to={'/login'} role="button">
+                    <button className="signup"> Login </button>
+                </Link>
+
                 <h1>Store Manager! | STORE OWNER</h1>
                 <input type="text" placeholder="Enter Your Email Here..." name="Email" required />  
                 <input type="text" placeholder="Enter Your Username Here..." name="Username" required />  

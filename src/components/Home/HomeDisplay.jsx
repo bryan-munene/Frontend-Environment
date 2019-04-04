@@ -11,11 +11,11 @@ export const HomeDisplay = () => {
                         <h1 className="name">Store Manager</h1><br />
                     </div>
                     <Link className="btn" to={'/login'} role="button">
-                        <button> Login </button>
+                        <button className="signin"> Login </button>
                     </Link>
                     
                     <Link className="btn" to={'/signup'} role="button">
-                        <button> Signup </button>
+                        <button className="signup"> Signup </button>
                     </Link>
 
                 </div>
