@@ -34,12 +34,24 @@
       right: -200px;		
   }
   
-  .btn button {
+ .signin button {
     position: fixed;
     width: 200px;
     background: #62a6eb;
+    float: right;
+    margin-top: 1em;
+    height: 30px;
   }
   
+ .signup button {
+    position: fixed;
+    width: 200px;
+    background: #62a6eb;
+    float: left;
+    height: 30px;
+    margin-top: 1em;
+  }
+
   #account.active{
       right: 0px;
   }
